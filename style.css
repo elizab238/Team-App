@@ -34,7 +34,7 @@ body {
 
 .access {
     background-color:   rgba(95, 99, 104, 0.86);;
-    padding: 13px 19px;
+    /*padding: 13px 19px;*/
 }
 
 .access :hover {
@@ -217,7 +217,7 @@ nav {
 
 .arrow {
     margin-bottom: -10px;
-    transition: transform 1s ease-in;
+    transition: transform 0.5s ease-in;
 }
 
 .learn:hover .arrow {
@@ -318,4 +318,85 @@ nav {
     color: #6D7D8B;
     font-size: 14px;
     line-height: 20px;
+}
+
+/*blog*/
+.nav_blog {
+    text-decoration: none;
+    padding: 20px 12px;
+    color: black;
+}
+
+.blog-logo {
+    color: black;
+}
+
+.blog-nav {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.blog {
+    max-width: 700px;
+    padding: 80px 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.blog-head {
+    font-size: 40px;
+    line-height: 95px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #213757;
+    font-weight: bold;
+}
+
+.avatar {
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+}
+
+.name {
+    margin-left: 15px;
+}
+
+.date {
+    margin-left: 15px;
+}
+
+.blog-img {
+    max-width: 900px;
+    padding: 80px 60px;
+}
+
+.blog-image {
+    height: 450px;
+}
+
+.blog-paragraph {
+    margin-top: 60px;
+    max-width: 700px;
+    padding: 80px 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.b-paragraph {
+    color: #213757;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.by {
+    margin-right: 60px;
+}
+
+.author {
+    margin-left: auto;
+    margin-right: auto;
 }
