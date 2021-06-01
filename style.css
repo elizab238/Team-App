@@ -400,3 +400,101 @@ nav {
     margin-left: auto;
     margin-right: auto;
 }
+
+/*team*/
+
+.nav_team {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    padding: 20px 12px;
+    color: black;
+}
+
+
+.Team {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.teamHeading {
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 57px;
+    margin-bottom: 40px;
+    color: #213757;
+}
+
+.teamPara {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 163.15%;
+    color: #6D7D8B;
+}
+
+.blogContainer {
+   /* margin-left: 60px;
+    margin-right: 60px;
+    display: grid;
+    grid-template-columns: 367px 367px 367px;
+    grid-template-rows: 492px 492px 492px;
+    display*/
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    
+}
+
+.item {
+    /*margin: 60px;
+    background-color: white;
+    transition: all 200ms ease;*/
+    background-color: #FFFFFF;
+}
+
+.blog {
+    transition: all 200ms ease;
+    height: 100%;
+} 
+.blog :hover {
+    box-shadow: 1px 1px 3px 0 grey;
+    transform: translate(-2px, 0px);
+}
+
+.blogHeading {
+    font-size: 22px;
+    line-height: 36px;
+    color: #213757;
+    font-weight: bold;
+}
+
+.blogParagraph {
+    font-size: 18px;
+    line-height: 26px;
+    color: #213757;
+}
+
+.card {
+    display: flex;
+    flex-grow: 3;
+    flex-shrink: 0;
+}
+
+.authorNameAndDAte {
+    display: flex;
+    align-items: stretch;
+    justify-content: start;
+    margin-right: 15px;
+}
+
+.authorName {
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.authorDate {
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
